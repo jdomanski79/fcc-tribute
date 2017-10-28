@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+}
+
+.container {
+	display: flex;
+	width: 960px;
+	background-color: lightgrey;
+	border-radius: 10px;	
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+header{
+	flex: 99%;
+}
+h1 {
+	text-align: center;
+}
+
+figure{
+	width: 100px;
+	flex: 0 60%;
+	border: 1px solid black;
+}
+img{
+	width: 100%;
+}
+p{
+	flex: 1;
+	font-size: 30px;
+}
