@@ -82,9 +82,12 @@ ul {
 }
 
 blockquote {
-	margin: 10px 70px;
+	padding: 10px 70px;
+	margin: 0 20px;
   quotes: "\201C" "\201D" "\2018" "\2019";
   font-size: 1.5rem;  
+  /*border-bottom: 1px solid black;
+  border-top: 1px solid black;*/
 }
 
 blockquote p{
