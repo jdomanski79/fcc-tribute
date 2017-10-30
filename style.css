@@ -8,11 +8,10 @@
 }
 
 body{
-	height: 100vh;
+	height: 100%;
 }
 
 .container {
-	height: 100%;
 	display: flex;
 	width: 960px;
 	background-color: lightgrey;
@@ -20,23 +19,23 @@ body{
 	margin: 0 auto;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: space-around;
 }
 header{
 	flex: 99%;
 	text-align: center;
 }
-h1, {
+h1,h2 {
 	text-align: center;
 }
 
 figure{
 	width: 100px;
-	flex: 0 60%;
+	flex: 0 100%;
 	padding-left: 10px;
 }
 img{
 	width: 100%;
+	border-radius: 30px;
 }
 p{
 	flex: 1;
